@@ -114,7 +114,7 @@ const CompanyForm: React.FC = () => {
             </div>
 
             <div className="space-y-3">
-              <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1">Código Alterdata (ERP)</label>
+              <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1">Código Alterdata</label>
               <input
                 type="text"
                 required
@@ -163,7 +163,7 @@ const CompanyForm: React.FC = () => {
               </div>
 
               <div className="md:col-span-2 space-y-4">
-                <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1">Saúde do Fluxo de Caixa</label>
+                <label className="text-[10px] font-black text-gray-400 uppercase tracking-widest ml-1">Caixa da Empresa</label>
                 <div className="flex gap-6">
                   <button
                     type="button"

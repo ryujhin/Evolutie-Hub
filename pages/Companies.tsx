@@ -148,7 +148,7 @@ const Companies: React.FC = () => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-slate-400 uppercase tracking-widest text-[9px] font-black">Saúde Caixa</span>
+                    <span className="text-slate-400 uppercase tracking-widest text-[9px] font-black">Caixa</span>
                     <span className={`flex items-center gap-2 text-[11px] font-bold ${company.situacaoCaixa === 'negativo' ? 'text-secondary' : 'text-emerald-600'}`}>
                       {company.situacaoCaixa === 'negativo' ? <AlertCircle size={14} /> : <CheckCircle size={14} />}
                       {company.situacaoCaixa.toUpperCase()}

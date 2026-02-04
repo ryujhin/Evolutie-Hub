@@ -27,7 +27,7 @@ const Dashboard: React.FC = () => {
     return [
       { title: 'Empresas Ativas', value: total, icon: Building2, color: 'bg-primary', sub: 'Carteira total' },
       { title: 'Conformidade', value: `${((conciliacao / total) * 100 || 0).toFixed(0)}%`, icon: ShieldCheck, color: 'bg-secondary', sub: 'Conciliação Bancária' },
-      { title: 'Saúde de Caixa', value: caixaPositivo, icon: Wallet, color: 'bg-emerald-600', sub: 'Fluxo Positivo' },
+      { title: 'Empresas em Caixa Positivo', value: caixaPositivo, icon: Wallet, color: 'bg-emerald-600', sub: 'Fluxo Positivo' },
       { title: 'Performance', value: 'High', icon: TrendingUp, color: 'bg-primary', sub: 'Indicador Global' },
     ];
   }, [companies]);
