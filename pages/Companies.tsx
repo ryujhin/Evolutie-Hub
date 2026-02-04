@@ -69,7 +69,7 @@ const Companies: React.FC = () => {
             <Search className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
             <input
               type="text"
-              placeholder="Razão Social, CNPJ ou Código ERP..."
+              placeholder="Razão Social, CNPJ ou Código..."
               className="w-full pl-16 pr-6 py-5 bg-slate-50 rounded-2xl border-2 border-transparent focus:border-secondary focus:bg-white outline-none transition-all text-sm font-bold text-primary placeholder:font-normal placeholder:text-slate-300"
               value={searchTerm}
               onChange={e => setSearchTerm(e.target.value)}
@@ -120,7 +120,7 @@ const Companies: React.FC = () => {
               <div>
                 <div className="flex justify-between items-start mb-6">
                   <div className="max-w-[80%]">
-                    <span className="text-[9px] font-black text-slate-300 uppercase tracking-widest">ERP: {company.codigoAlterdata}</span>
+                    <span className="text-[9px] font-black text-slate-300 uppercase tracking-widest">CÓDIGO: {company.codigoAlterdata}</span>
                     <h3 className="font-bold text-primary text-xl truncate mt-1 group-hover:text-secondary transition-colors">{company.nome}</h3>
                     <p className="text-xs text-slate-400 font-medium mt-1">{company.cnpj}</p>
                   </div>
