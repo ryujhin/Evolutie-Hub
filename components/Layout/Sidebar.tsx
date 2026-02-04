@@ -10,7 +10,7 @@ import {
   ChevronLeft,
   ChevronRight
 } from 'lucide-react';
-import { useAuth } from '../../Evolutie-Hub/contexts/AuthContext';
+import { useAuth } from '../../contexts/AuthContext';
 import Logo from './Logo';
 
 interface SidebarProps {
