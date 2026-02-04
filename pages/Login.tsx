@@ -59,7 +59,7 @@ const Login: React.FC = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full px-6 py-4 rounded-2xl bg-slate-50 border border-slate-200 focus:ring-4 focus:ring-secondary/5 focus:border-secondary outline-none transition-all text-primary font-bold placeholder:font-normal"
-                placeholder="usuario@evolutie.com"
+                placeholder="usuario@email.com"
               />
             </div>
 
@@ -100,7 +100,7 @@ const Login: React.FC = () => {
 
             <div className="flex items-center gap-2 text-slate-300 text-[9px] font-black uppercase tracking-[0.2em]">
               <ShieldCheck size={12} className="text-secondary" />
-              Acesso Protegido por Criptografia de Ponta
+              Acesso Protegido por Criptografia.
             </div>
           </div>
         </div>
